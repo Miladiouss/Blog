@@ -220,6 +220,11 @@ a#pdf:hover {
     width: 100%;
 }
 
+#version {
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0);
+}
+
 hr {
     border: 0;
     height: 1px;

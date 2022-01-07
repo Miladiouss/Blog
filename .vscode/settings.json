@@ -3,5 +3,6 @@
         "activityBar.background": "#16266D",
         "titleBar.activeBackground": "#1F3699",
         "titleBar.activeForeground": "#F8F9FE"
-    }
+    },
+    "python.formatting.provider": "autopep8"
 }

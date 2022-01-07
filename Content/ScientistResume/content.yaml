@@ -1,0 +1,61 @@
+experiences:
+    caltech_spx:
+        title: R&D at Caltech and JPL
+        date: 2019-Present
+        bullets:
+            - Research and development of scientific software for the next generation of space telescopes (SPHEREx).
+            - Lead scientist for designing the algorithm for strategising deep field observations involving ML techniques and high dimensional and large volume data visualization.
+            - Development of production-quality data pipeline for processing TBs of images on distributed systems.
+            - Experiment design and data simulation for quality assessment.
+            - $250 MM of funding from NASA.
+    uci_ml:
+        title: Researcher at University of California, Irvine
+        date: 2015-2019
+        bullets:
+            - Deep Learning Image Classification on Astronomical Data with 50 Training Examples
+            - Designed, tested, and published a new deep CNN architecture with PyTorch for biased and limited datasets (less than 50 examples) to identify rare astronomical events known as gravitational lenses among millions of common galaxy images.
+            - 'Ph.D. Thesis: <a href="https://escholarship.org/uc/item/119576c5" target="_blank">Deep Mining and its Astronomical Applications</a>'
+            - Mentored graduate and undergraduate students for various projects with leveraged interpersonal and communication skills and by advocating critical and independent thinking.
+    uci_gan:
+        title: Using a Generative Adversarial Network (GAN) to Synthesize Gravitational Lenses
+        date: 2018
+        bullets:
+            - Used for boosting the training examples for image classification.
+            - A generator was constructed from a series of transposed convolutions to upsample a latent vector to an RGB image.
+            - A discriminator was used to identify synthesised images from real images.
+            - A loss function was assigned to be maximized by the generator and minimized by the discriminator.
+            - The discriminator was re-trained on synthesised data from 20 differently initialized GANs and used for data mining.
+    wolfram_ss:
+        title: Wolfram Summer Internship
+        date: Summer 2018
+        bullets:
+            - Designed a chess engine, GUI, and API using the Wolfram Language, enabling users to explore and filter the decision tree of moves in a visual manner (<a href="https://community.wolfram.com/groups/-/m/t/1380041" target="_blank">Link</a>')
+            - Reviewed by Stephen Wolfram and approved to be part part of the Wolfram|Alpha
+    uci_app:
+        title: Student/Tutor Matching App Design
+        date: 2018
+        bullets:
+            - Recruited a group of undergraduate and master student software developers.
+            - Set up a project development environment for the group.
+            - Structured the backend and frontend and communicated its design to the developers.
+            - Applied for grant funding and pitched the demo to entrepreneurs.
+    ezimg:
+        title: Image Processing Pip Package
+        date: 2020
+        bullets:
+            - <code>ezimage</code>, a library published on <a href="https://pypi.org/project/ezimage/" target="_blank">pip repository</a> to facilitate loading, reformating, and displaying images in Python.
+            - Smart input recognition to load images from URLs, local paths, or data in different formats without any specifications.
+            - Useful for machine learning to convert between CHW and HWC format for PyTorch and TensorFlow.
+publications:
+    a:
+        title: "LensFlow: A convolutional neural network in search of strong gravitational lenses"
+        date: 2018
+    b:
+        title: Bringing manifold learning and dimensionality reduction to SED fitters
+        date: 2019
+    c:
+        title: "SPHEREx: NASA's near-infrared spectrophotometric all-sky survey"
+        date: 2020
+    d:
+        title: Deep Mining and Its Astronomical Applications
+        date: 2019

@@ -204,6 +204,7 @@ a#pdf:hover {
 }
 .talent h2 {
     margin-bottom: 6px;
+    float: left;
 }
 
 #srt-ttab {
@@ -259,6 +260,7 @@ hr {
     width: 24%;
     float: left;
     background: transparent;
+    float: left;
 }
 .column-last {
     font-size: 90%;

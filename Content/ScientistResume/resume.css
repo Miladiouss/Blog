@@ -192,7 +192,7 @@ a#pdf:hover {
 .skills-list li span {
     font-size: 152%;
     display: block;
-    margin-bottom: -2px;
+    margin-bottom: 0px;
     padding: 0;
 }
 .talent {
@@ -240,12 +240,12 @@ hr {
 .skills-section {
     margin-bottom: 1em;
     padding-bottom: 0px;
-    height: 13em;
+    height: 14em;
 }
 .interests-section {
     margin-bottom: 1em;
     padding-bottom: 0px;
-    height: 10em;
+    height: 11em;
 }
 .last {
     border: none;

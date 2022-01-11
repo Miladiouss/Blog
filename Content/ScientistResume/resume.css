@@ -254,6 +254,7 @@ hr {
 /* .section {width:95.0%;} */
 .section h2 {
     font-size: 152%;
+    float: left;
 }
 .column {
     font-size: 90%;

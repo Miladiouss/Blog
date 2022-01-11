@@ -1,14 +1,21 @@
-#!/usr/bin/env python
+#! /usr/bin/env python
+
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from munch import Munch
+from pathlib import Path
 
-with open("content.yaml", "r") as stream:
+here = Path(__file__).parent
+print(here)
+contentPath = here / "content.yaml"
+with contentPath.open("r") as stream:
     content = yaml.safe_load(stream)
     content = Munch.fromDict(content)
 
-env = Environment(loader=FileSystemLoader(''))
-rendered = env.get_template('page-template.html').render(content)
+env = Environment(loader=FileSystemLoader(here))
+tempPath = here / 'page-template.html'
+rendered = env.get_template('page-template.html', here).render(content)
 
-with open('page.html', 'w') as stream:
+pagePath = here / 'page.html'
+with pagePath.open('w') as stream:
     stream.write(rendered)

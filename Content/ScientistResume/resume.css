@@ -54,6 +54,8 @@ body {
 #bd,
 #ft {
     margin-bottom: 2em;
+    margin-left: -2em;
+    margin-right: -5em;
 }
 
 /* //-- footer -- */
@@ -234,9 +236,15 @@ hr {
         rgba(0, 0, 0, 0)
     );
 }
-.section {
+.skills-section {
     margin-bottom: 1em;
     padding-bottom: 0px;
+    height: 12.5em;
+}
+.interests-section {
+    margin-bottom: 1em;
+    padding-bottom: 0px;
+    height: 9.5em;
 }
 .last {
     border: none;
@@ -246,12 +254,22 @@ hr {
 .section h2 {
     font-size: 152%;
 }
-.skills {
-    width: 32%;
-    height: 8em;
+.column {
+    font-size: 90%;
+    width: 24%;
     float: left;
     background: transparent;
-    margin-bottom: 10px;
+}
+.column-last {
+    font-size: 90%;
+    width: 25%;
+    float: left;
+    background: transparent;
+}
+.interests {
+    width: 32%;
+    float: left;
+    background: transparent;
 }
 .accomp-date {
     /* background: lightgray; */

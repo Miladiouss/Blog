@@ -173,36 +173,30 @@
                             </div>
                             <!-- <<< Education -->
                             <!-- >>> Hard Skills -->
-                            <div class="section">
+                            <div class="skills-section">
                                 <h2>Hard Skills</h2>
                                 <hr />
-                                <ul class="skills">
-                                    <li>Advanced Python Programming</li>
-                                    <li>High Performance Computing</li>
-                                    <li>Data Visualization</li>
-                                    <li class="last">Pipeline Developer</li>
-                                </ul>
-                                <ul class="skills">
-                                    <li>
-                                        Machine Learning & Statistical Learning
-                                    </li>
-                                    <li>Pytorch / TensorFlow / Keras</li>
-                                    <li>Pandas, NumPy, SciPy, Scikit-learn</li>
-                                    <li class="last">Linux Power User</li>
-                                </ul>
-                                <ul class="skills">
-                                    <li>JavaScript / HTML / CSS</li>
-                                    <li>
-                                        Signal, Image, & Audio Processing with
-                                        Python
-                                    </li>
-                                    <li>Wolfram Language (Mathematica)</li>
-                                    <li class="last">&nbsp;</li>
-                                </ul>
+                                {% for clm in skills %}
+                                    {% if not loop.last %}
+                                        <ul class="column">
+                                    {% else %}
+                                        <ul class="column">
+                                    {% endif %}
+                                        {% for item in skills[clm] %}
+                                            {% if not loop.last %}
+                                                <li>{{ item }}</li>
+                                            {% else %}
+                                                <li class="last">{{ item }}</li>
+                                            {% endif %}
+                                        {% endfor %}    
+                                    </ul>    
+                                {% endfor %}
+                                
                             </div>
+                            <br>
                             <!-- <<< Hard Skills -->
                             <!-- >>> Soft Skills -->
-                            <div class="section">
+                            <div class="skills-section">
                                 <h2>Soft Skills</h2>
                                 <hr />
                                 <div class="talent">
@@ -250,20 +244,20 @@
                             </div>
                             <!-- <<< Soft Skills -->
                             <!-- >>> Interests -->
-                            <div class="section">
+                            <div class="interests-section">
                                 <h2>Interests</h2>
                                 <hr />
-                                <ul class="skills">
+                                <ul class="interests">
                                     <li>Machine Learning</li>
                                     <li>Statistical Analysis</li>
                                     <li class="last">Data Science</li>
                                 </ul>
-                                <ul class="skills">
+                                <ul class="interests">
                                     <li>Computational Science</li>
                                     <li>Algorithm Design</li>
                                     <li class="last">Data Visualization</li>
                                 </ul>
-                                <ul class="skills">
+                                <ul class="interests">
                                     <li>NLP</li>
                                     <li>
                                         Quantitative Finance & Option Trading

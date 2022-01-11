@@ -1,3 +1,33 @@
+skills:
+    column1:
+        - Advanced Python Programming
+        - Algorithm Design
+        - High Performance Computing
+        - NumPy / SciPy / Plotly / Matplotlib
+        - Scikit-learn / Pandas / Astropy
+        - PyTorch / Tensorflow / Keras
+    column2:
+        - Machine Learning / Statistical Learning
+        - Deep Learning / Computer Vision
+        - Network Architecture / Computer Vision
+        - Computer Vision / NLP / CNNs / GANs
+        - Statistics and Mathematical Modeling
+        - Signal Processing / Time Series Analysis
+    column3:
+        - Data Analysis / Data Visualization
+        - Data Wrangling / Data Pipeline
+        - Image Processing / Digital Imaging
+        - Infrared Imaging / CCD/CMOS
+        - Anomaly Detection / Sensors / Robotics
+        - JavaScript / HTML / CSS / JinJa
+
+    column4:
+        - C++ / Matlab / Mathematica / LaTex
+        - Linux Power User / Git
+        - Cloud Computing / AWS / TACC
+        - Scientific Writing and Speaking
+        - Project Leadership and Management
+        - Jira / Confluence
 experiences:
     caltech_spx:
         title: R&D at Caltech and JPL

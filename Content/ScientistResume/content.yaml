@@ -9,8 +9,8 @@ skills:
     column2:
         - Machine Learning / Statistical Learning
         - Deep Learning / Computer Vision
-        - Network Architecture / Computer Vision
-        - Computer Vision / NLP / CNNs / GANs
+        - Network Architecture / NLP
+        - Computer Vision / CNNs / GANs
         - Statistics & Mathematical Modeling
         - Signal Processing / Time Series Analysis
     column3:

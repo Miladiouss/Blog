@@ -240,7 +240,7 @@ hr {
 .skills-section {
     margin-bottom: 1em;
     padding-bottom: 0px;
-    height: 14em;
+    height: 15em;
 }
 .interests-section {
     margin-bottom: 1em;
@@ -257,7 +257,7 @@ hr {
     float: left;
 }
 .column {
-    font-size: 90%;
+    font-size: 86%;
     width: 24%;
     float: left;
     background: transparent;

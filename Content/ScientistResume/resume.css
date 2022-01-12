@@ -229,6 +229,7 @@ a#pdf:hover {
 }
 
 hr {
+    clear: both;
     border: 0;
     height: 1px;
     background-image: linear-gradient(

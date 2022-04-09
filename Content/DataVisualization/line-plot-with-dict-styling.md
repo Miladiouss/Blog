@@ -2,4 +2,5 @@
 
 <script src="https://gist.github.com/Miladiouss/e2f4fef284ebf8461752a769e6ec5864.js"></script>
 
-![line-plot-with-dict-styling](line-plot-with-dict-styling.png)
+<img src="line-plot-with-dict-styling.svg" alt="Line Plot">
+<!-- pandoc -f markdown line-plot-with-dict-styling.md > line-plot-with-dict-styling.html -->
